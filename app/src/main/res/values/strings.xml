@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LeagueApp</string>
+    <string name="title">Bienvenido</string>
+    <string name="user">Nombre de Invocador</string>
+    <string name="user_hint">Nombre</string>
+    <string name="password">Password</string>
+</resources>
