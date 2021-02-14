@@ -14,7 +14,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="100dp">
+        android:background="#A1000000"
+        android:paddingTop="100dp"
+        >
 
         <ImageView
             android:layout_width="110dp"
@@ -45,7 +47,8 @@
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:layout_marginBottom="25dp"
-            android:backgroundTint="@color/white"
+            android:background="@drawable/input"
+
             android:layout_gravity="center_horizontal"/>
 
         <TextView
@@ -59,13 +62,24 @@
         <EditText
             android:id="@+id/texPassword"
             android:layout_width="250dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
-            android:backgroundTint="@color/white"
             android:hint="@string/password"
             android:textColorHint="@color/white"
             android:textColor="@color/white"
+            android:background="@drawable/input"
             android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_buttom"
+            android:layout_gravity="center_horizontal"
+            android:text="Iniciar"/>
 
 
     </LinearLayout>
